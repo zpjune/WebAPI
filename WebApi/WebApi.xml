@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:WebApi.Controllers.ValuesController">
+            <summary>
+            valueController zp
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.ValuesController.Get">
+            <summary>
+            查询方法
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            根据id 查询
+            </summary>
+            <param name="id">参数id</param>
+            <returns>查询结果</returns>
+        </member>
+        <member name="M:WebApi.Controllers.ValuesController.Delete(Model.Class1)">
+            <summary>
+            MODEL实体方法
+            </summary>
+            <param name="MD">class实体参数</param>
+        </member>
+    </members>
+</doc>
