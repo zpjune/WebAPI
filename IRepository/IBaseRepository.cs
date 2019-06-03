@@ -4,8 +4,8 @@ using System.Text;
 
 namespace IRepository
 {
-  public  interface IAdvertisementRepository
+   public class IBaseRepository
     {
-        int Sum(int i, int j);
+
     }
 }
