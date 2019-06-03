@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{8DDE4837-D84D-417E-9675-AF031B69D874}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{8DDE4837-D84D-417E-9675-AF031B69D874}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{F5C9CB4D-FA10-44D9-BC16-437C91BA7BC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj", "{F5C9CB4D-FA10-44D9-BC16-437C91BA7BC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{EE84152C-A200-41BE-A6BC-8DA87081BF9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{EE84152C-A200-41BE-A6BC-8DA87081BF9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRepository", "IRepository\IRepository.csproj", "{A89A04DB-327F-4D20-BBA1-B6AAD0B564E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IRepository", "IRepository\IRepository.csproj", "{A89A04DB-327F-4D20-BBA1-B6AAD0B564E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{35A1FED8-ABC2-4DB9-9498-0C99B97BFD25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{35A1FED8-ABC2-4DB9-9498-0C99B97BFD25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IService", "IService\IService.csproj", "{46BC5F31-18D5-4F69-A6FF-ED4DA6061102}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IService", "IService\IService.csproj", "{46BC5F31-18D5-4F69-A6FF-ED4DA6061102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{FCFE42CE-4E21-4945-8CA0-09A0ADC6A830}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{46BC5F31-18D5-4F69-A6FF-ED4DA6061102}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46BC5F31-18D5-4F69-A6FF-ED4DA6061102}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46BC5F31-18D5-4F69-A6FF-ED4DA6061102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCFE42CE-4E21-4945-8CA0-09A0ADC6A830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCFE42CE-4E21-4945-8CA0-09A0ADC6A830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCFE42CE-4E21-4945-8CA0-09A0ADC6A830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCFE42CE-4E21-4945-8CA0-09A0ADC6A830}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

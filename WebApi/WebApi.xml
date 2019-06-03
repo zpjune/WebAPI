@@ -22,11 +22,5 @@
             <param name="id">参数id</param>
             <returns>查询结果</returns>
         </member>
-        <member name="M:WebApi.Controllers.ValuesController.Delete(Model.Class1)">
-            <summary>
-            MODEL实体方法
-            </summary>
-            <param name="MD">class实体参数</param>
-        </member>
     </members>
 </doc>

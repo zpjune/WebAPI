@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 
 namespace WebApi.Controllers
 {
@@ -20,6 +21,8 @@ namespace WebApi.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
+           IService.IAdvertisementServices ss = new Service.AdvertisementServices();
+            ss.Sum(1,1);
             return new string[] { "value1", "value2" };
         }
         /// <summary>
@@ -48,14 +51,6 @@ namespace WebApi.Controllers
         // DELETE api/values/5
         [HttpDelete("{id}")]
         public void Delete(int id)
-        {
-        }
-        /// <summary>
-        /// MODEL实体方法
-        /// </summary>
-        /// <param name="MD">class实体参数</param>
-        [HttpDelete]
-        public void Delete(Model.Class1 MD)
         {
         }
     }
